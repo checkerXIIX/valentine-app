@@ -99,7 +99,7 @@ export default function PhotoPairGame({
 
   // Check if game is won
   useEffect(() => {
-    if (matched.length === 2) {
+    if (matched.length === images.length) {
       handleShowProposal();
     }
   }, [matched, handleShowProposal]);
