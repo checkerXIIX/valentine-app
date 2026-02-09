@@ -3,18 +3,21 @@ import "./globals.css";
 import Head from 'next/head';
 
 export const metadata: Metadata = {
-  title: "Valentines: A Romantic Card Game with a Surprise Proposal",
+  title: "Bad Bunny for Super Bowl 60 Halftime Show! Latinos go crazy",
+
   description:
-    "Play a unique Valentine's card game. Complete the collection to reveal a romantic proposal!",
+    "Everything you need to know about Bad Bunny#s legendary headline of Super Bowl 60 halftime show.",
+
   keywords: [
-    "Valentine's card game",
-    "romantic proposal game",
-    "photo card challenge",
-    "Valentine's Day surprise",
-    "couples game",
-    "valentine's day game",
-    "proposal game",
-  ],
+    "Bad Bunny Super Bowl 60",
+    "Super Bowl 60 halftime show",
+    "Bad Bunny halftime rumors",
+    "NFL halftime preview",
+    "Super Bowl halftime interactive",
+    "Bad Bunny fan challenge",
+    "Super Bowl 60 predictions",
+    "halftime show leak",
+  ]
 };
 
 export default function RootLayout({
