@@ -415,6 +415,7 @@ function PlanningView({
                     isSelected ? "brightness-75" : ""
                   }`}
                   priority
+                  sizes="(max-width: 768px) 50vw, 33vw"
                 />
               </div>
 
