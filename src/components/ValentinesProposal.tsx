@@ -60,10 +60,10 @@ export default function ValentinesProposal() {
   const foodOptions: Option[] = [
     { id: "pizza", label: "Pizza", image: "/food/pizza.avif" },
     { id: "hotpot", label: "HotPot", image: "/food/hotpot.avif" },
-    { id: "burger", label: "Burger", image: "/food/burger.jpeg" },
-    { id: "barbeque", label: "Korean BBQ", image: "/food/bbq.jfif" },
-    { id: "lasagna", label: "Lasagna", image: "/food/lasagna.jfif" },
-    { id: "thai", label: "Thai", image: "/food/thai.jfif" },
+    { id: "burger", label: "Burger", image: "/food/Burger.avif" },
+    { id: "barbeque", label: "Korean BBQ", image: "/food/bbq.avif" },
+    { id: "lasagna", label: "Lasagna", image: "/food/lasagna.avif" },
+    { id: "thai", label: "Thai", image: "/food/thai.avif" },
   ];
   const dessertOptions: Option[] = [
     { id: "ice_cream", label: "Ice Cream", image: "/food/IceCream.avif" },
@@ -78,7 +78,7 @@ export default function ValentinesProposal() {
     { id: "billard", label: "Billard", image: "/food/billard.avif" },
     { id: "cooking", label: "Cooking Together", image: "/food/cooking.avif" },
     { id: "cuddle", label: "Cuddle Party", image: "/food/cuddle.avif" },
-    { id: "porn", label: "Making a Porn", image: "/food/sexy.jpg" },
+    { id: "porn", label: "Making a Porn", image: "/food/sexy.avif" },
     { id: "club", label: "Night out", image: "/food/club.avif" },
   ];
   const ticketRef = useRef<HTMLDivElement>(null);
@@ -414,6 +414,7 @@ function PlanningView({
                   className={`object-cover transition ${
                     isSelected ? "brightness-75" : ""
                   }`}
+                  priority
                 />
               </div>
 
