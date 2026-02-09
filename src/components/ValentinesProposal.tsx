@@ -62,7 +62,7 @@ export default function ValentinesProposal() {
     { id: "hotpot", label: "HotPot", image: "/food/hotpot.avif" },
     { id: "burger", label: "Burger", image: "/food/Burger.avif" },
     { id: "barbeque", label: "Korean BBQ", image: "/food/bbq.avif" },
-    { id: "lasagna", label: "Lasagna", image: "/food/lasagna.avif" },
+    { id: "taco", label: "Taco", image: "/food/taco.avif" },
     { id: "thai", label: "Thai", image: "/food/thai.avif" },
   ];
   const dessertOptions: Option[] = [
@@ -78,7 +78,7 @@ export default function ValentinesProposal() {
     { id: "billard", label: "Billard", image: "/food/billard.avif" },
     { id: "cooking", label: "Cooking Together", image: "/food/cooking.avif" },
     { id: "cuddle", label: "Cuddle Party", image: "/food/cuddle.avif" },
-    { id: "porn", label: "Making a Porn", image: "/food/sexy.avif" },
+    { id: "porn", label: "Making a Porn", image: "/food/kiss.avif" },
     { id: "club", label: "Night out", image: "/food/club.avif" },
   ];
   const ticketRef = useRef<HTMLDivElement>(null);
